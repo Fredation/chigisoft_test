@@ -105,7 +105,8 @@ class LoginPage extends StatelessWidget {
                               isError: false,
                             );
                             // ignore: use_build_context_synchronously
-                            Navigator.pushNamed(context, AppRoutes.homePage);
+                            Navigator.pushReplacementNamed(
+                                context, AppRoutes.homePage);
                           } else {
                             MyToast.show(
                                 context: context,

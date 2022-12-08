@@ -15,7 +15,7 @@ class ProductionApp extends AppStart {
   ProductionApp()
       : super(ProductionBuildConfig(
           baseUrl: "https://dummyjson.com/",
-          appName: "chigisoft Test",
+          appName: "Chigisoft Test",
         ));
 }
 
@@ -31,7 +31,7 @@ class StagingApp extends AppStart {
   StagingApp()
       : super(StagingBuildConfig(
           baseUrl: "https://dummyjson.com/",
-          appName: "chigisoft Test Staging",
+          appName: "Chigisoft Test Staging",
         ));
 }
 

@@ -199,7 +199,7 @@ class HomePage extends StatelessWidget {
                 HorizontalCard(
                   title: "50,675",
                   subTitle: "My Business",
-                  imgPath: fileIcon,
+                  imgPath: shopIcon,
                   imgBgColor: ChigiColors.cartonBg,
                   bottomBorderColor: ChigiColors.carton,
                   imgColor: ChigiColors.businessIconColor,
